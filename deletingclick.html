@@ -1,0 +1,78 @@
+<!doctype html>
+
+	<html>
+
+		<head>
+		
+			<title>Deleting Click</title>
+			
+			<script src="jquery-3.5.1.js"></script>
+			
+			<style type = "text/css">
+			
+						#Circle
+						
+								{
+										
+										width:200px;
+										height:200px;
+										background-color:green;
+										border-radius:50%;
+										margin:10px;
+										
+								}
+								
+						.Square
+						
+								{
+								
+										width:200px;
+										height:200px;
+										background-color:red;
+										margin:10px;
+										
+								
+								}
+					
+						
+			
+			</style>
+			
+			</head>
+			
+			<body>
+			
+			
+					<div id ="Circle"> </div>
+					
+					<div class="Square"> </div> 
+
+					<div class="Square"> </div> 
+					
+					<script type="text/javascript">
+					
+						$("#Circle").click(function() {
+						
+						alert("circle was clicked!");
+
+						});
+						
+						$(".Square").click(function() {
+						
+						alert("square was clicked!");
+
+						});
+						
+						$("div").click(function() {
+						
+						alert("div was clicked!");
+
+						});
+					
+					
+					
+					</script>
+						
+			</body>
+			
+		</html>	

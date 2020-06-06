@@ -1,0 +1,51 @@
+<!doctype html>
+
+	<html>
+
+		<head>
+		
+			<title>fadding-out</title>
+			
+			<script src="jquery-3.5.1.js"></script>
+			
+			<style type = "text/css">
+				
+				
+			
+			</style>
+			
+			</head>
+			
+			<body>
+			
+					
+					<p id="fade-out">Hello! This is a fadding out animation, we are going to fade out some text from the paragraph.Hope you all like it.Thankyou</p> 
+					
+					<button id="toggle">Toggle</button>
+					
+					
+					
+					
+					<script type="text/javascript">
+						
+						$("#toggle").click(function(){
+						
+								if($("#fade-out").css("display") == "none"){
+								
+									$("#fade-out").fadeIn();
+								}else
+								{
+						
+								$("#fade-out").fadeOut();
+						
+						}
+						});
+					
+						
+						
+					</script>
+						
+			</body>
+			
+		</html>	
+		
